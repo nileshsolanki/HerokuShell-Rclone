@@ -14,4 +14,5 @@ fi
 
 echo "SETUP COMPLETED"
 
-npm start
+echo "STARTING RCLONE"
+rclone serve http --addr 127.0.0.1:$PORT $REMOTE
