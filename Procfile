@@ -1,1 +1,1 @@
-web: source setup.sh && source start.sh & node server.js & wait -n
+web: source setup.sh && bin/runsvdir-dyno

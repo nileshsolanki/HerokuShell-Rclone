@@ -1,0 +1,2 @@
+chat: source start.sh
+server: node server.js
