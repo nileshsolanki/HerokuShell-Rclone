@@ -15,4 +15,4 @@ fi
 echo "SETUP COMPLETED"
 
 echo "STARTING RCLONE"
-rclone serve http --addr 127.0.0.1:$PORT "$REMOTE"
+rclone serve webdav --user $USER --pass $PASS --addr 0.0.0.0:$PORT "$REMOTE"
