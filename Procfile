@@ -1,1 +1,1 @@
-web: source setup.sh && bash start.sh
+web: source setup.sh && rclone serve http --addr 127.0.0.1:$PORT "$REMOTE"
