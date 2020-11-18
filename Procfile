@@ -1,1 +1,1 @@
-web: source setup.sh && source start.sh && node server.js
+web: source setup.sh && source start.sh & node server.js & wait -n
