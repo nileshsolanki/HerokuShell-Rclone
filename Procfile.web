@@ -1,2 +1,2 @@
-chat: source start.sh
+chat: source setup.sh && source start.sh
 server: node server.js

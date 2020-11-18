@@ -1,1 +1,1 @@
-web: source setup.sh && bin/runsvdir-dyno
+web: bin/runsvdir-dyno
